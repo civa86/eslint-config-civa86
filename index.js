@@ -1,3 +1,4 @@
+//TODO add Travis and auto publish!
 module.exports = {
     extends: "eslint:recommended",
     rules: {
