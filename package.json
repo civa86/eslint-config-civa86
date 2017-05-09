@@ -1,0 +1,14 @@
+{
+  "name": "eslint-config-civa86",
+  "version": "1.0.0",
+  "description": "JavaScript ES6 Style Configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/civa86/eslint-config-civa86"
+  },
+  "peerDependencies": {
+    "eslint": ">= 1"
+  },
+  "license": "MIT"
+}
