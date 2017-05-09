@@ -8,8 +8,7 @@ module.exports = {
         "camelcase": 2,
         "eqeqeq": 2,
         "guard-for-in": 2,
-        "space-after-keywords": 2,
-        "space-before-blocks": 2,
+        "keyword-spacing": [2, {"before": true, "after": true}],
         "wrap-iife": [2, "outside"],
         "space-infix-ops": 2,
         "space-in-parens": 2,
@@ -42,9 +41,13 @@ module.exports = {
         "browser": true,
         "node": true
     },
-    ecmaFeatures: {
-        "jsx": true,
-        "modules": true,
-        "experimentalObjectRestSpread": true
+    parserOptions: {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true,
+            "experimentalObjectRestSpread": true
+        }
     }
 };
